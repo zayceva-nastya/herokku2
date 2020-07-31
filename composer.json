@@ -1,0 +1,19 @@
+{
+  "autoload": {
+      "psr-4": {"App\\": "src/"}
+  },
+  "scripts": {
+    "psalm": "psalm",
+    "phpstan": "phpstan analyse -c phpstan.neon",
+    "codestyle": "phpcs",
+    "codestylefix": "phpcbf",
+    "psalter": "psalter --issues=all"
+  },
+  "require-dev": {
+    "vimeo/psalm": "^3.12",
+    "phpstan/phpstan": "^0.12.33"
+  },
+  "require": {
+    "squizlabs/php_codesniffer": "^3.5"
+  }
+}
