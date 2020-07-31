@@ -5,10 +5,10 @@ namespace App\Calculator;
 class Calculator
 {
 
-    protected int $num1;
-    protected int $num2;
+    protected float $num1;
+    protected float $num2;
 
-    public function __construct(int $num1, int $num2)
+    public function __construct(float $num1, float $num2)
     {
         $this->num1 = $num1;
         $this->num2 = $num2;
