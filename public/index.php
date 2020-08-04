@@ -22,6 +22,7 @@ use TexLab\Html\Html;
     echo Html::form()
         ->setAction('?')
         ->setMethod('POST')
+        ->setClass('form')
         ->setInnerText(
             Html::input()
                 ->setName('a')
