@@ -5,6 +5,10 @@
     }
   },
   "scripts": {
+    "ci:test": [
+      "@test",
+      "@codestyle"
+    ],
     "psalm": "psalm",
     "phpstan": "phpstan analyse -c phpstan.neon",
     "codestyle": "phpcs",
